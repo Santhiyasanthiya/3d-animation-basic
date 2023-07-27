@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>3D Animation with CSS Transforms</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 200px;
+      margin: 250px auto;
+      background-color: blue;
+      transform: rotateX(45deg) rotateY(45deg);
+      transition: transform 1s ease;
+      align-items: center;
+      background-image: linear-gradient(red, yellow, green); 
+     text-align: center;
+
+    }
+      
+
+    .box:hover {
+      transform: rotateX(180deg) rotateY(180deg) scale3d(1.5, 1.5, 1.5);
+    }
+  </style>
+</head>
+<body>
+  <div class="box">Hello World</div>
+</body>
+</html>
+
+
+
